@@ -9,7 +9,7 @@ let root = document.getElementById("root");
 let subtitle = document.getElementById("subtitle");
 
 // tambahkan date ke subtitle
-subtitle.innerHTML = new Date().toLocaledateString();
+subtitle.innerHTML = new Date().toLocaleDateString();
 
 // data list belanja
 let data_list_belanja = [];
